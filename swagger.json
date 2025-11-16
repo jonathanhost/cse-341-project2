@@ -54,7 +54,7 @@
                   "example": "any"
                 },
                 "birthday": {
-                  "example": "any"
+                  "example": "2025-01-15"
                 },
                 "address": {
                   "example": "any"
@@ -118,7 +118,7 @@
                   "example": "any"
                 },
                 "phone": {
-                  "example": "any"
+                  "example": "2025-01-15"
                 },
                 "birthday": {
                   "example": "any"
@@ -132,7 +132,7 @@
         ],
         "responses": {
           "204": {
-            "description": "No Content"
+            "description": "Updated"
           },
           "500": {
             "description": "Internal Server Error"
@@ -151,7 +151,7 @@
         ],
         "responses": {
           "204": {
-            "description": "No Content"
+            "description": "Deleted"
           },
           "500": {
             "description": "Internal Server Error"
@@ -269,7 +269,7 @@
                   "example": "any"
                 },
                 "createdAt": {
-                  "example": "any"
+                  "example": "2025-01-15"
                 }
               }
             }
@@ -277,7 +277,7 @@
         ],
         "responses": {
           "204": {
-            "description": "No Content"
+            "description": "Updated"
           },
           "500": {
             "description": "Internal Server Error"
@@ -296,7 +296,7 @@
         ],
         "responses": {
           "204": {
-            "description": "No Content"
+            "description": "Deleted"
           },
           "500": {
             "description": "Internal Server Error"
