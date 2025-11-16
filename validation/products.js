@@ -23,7 +23,7 @@ const productRules = [
     body('createdAt')
         .optional()
         .isISO8601()
-        .withMessage('createdAt must be a valid date')
+        .withMessage('createdAt must be a valid date, example 1995-08-21')
 ];
 
 module.exports = { productRules, validate };

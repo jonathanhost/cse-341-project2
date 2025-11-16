@@ -26,7 +26,7 @@ const customerRules = [
 
     body('birthday')
         .optional()
-        .isISO8601().withMessage('birthday must be a valid date'),
+        .isISO8601().withMessage('birthday must be a valid date, exemple 1995-08-21'),
 
     body('address')
         .notEmpty().withMessage('address is required')
