@@ -10,10 +10,7 @@ const productsRoutes = require('./products');
 router.use('/customers', customersRoutes);
 router.use('/products', productsRoutes);
 
-router.get('/', (req, res) => {
-    //#swagger-tags=['Hello World']
-    res.send('Hello World');
-});
+
 
 router.get('/login', passport.authenticate('github', (req, res) => {}));
 
